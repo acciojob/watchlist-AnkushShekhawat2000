@@ -54,10 +54,10 @@ public class MovieService {
     }
 
     public List<String> getMoviesByDirectorName(String director) {
-        return getMoviesByDirectorName(director);
+        return movieRepository.getMoviesByDirectorName(director);
 
     }
     public String deleteAllDirectors() {
-        return deleteAllDirectors();
+        return movieRepository.deleteAllDirectors();
     }
 }
