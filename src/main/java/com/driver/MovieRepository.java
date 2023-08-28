@@ -73,7 +73,7 @@ public class MovieRepository {
         return movielist;
     }
 
-    public List<String> findAllMovies() {
+    public List<String> getAllMovies() {
         List<String> allMovies = new ArrayList<>();
 
         for (Movie movie : movieDb.values()) {

@@ -50,7 +50,7 @@ public class MovieService {
 
 
     public List<String> getAllMovies() {
-        return getAllMovies();
+        return movieRepository.getAllMovies();
     }
 
     public List<String> getMoviesByDirectorName(String director) {
